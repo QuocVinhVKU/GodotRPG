@@ -1,5 +1,5 @@
 <?php
-$fp = fopen("banner.txt", "r");//mở file ở chế độ đọc
+$fp = fopen("C:\Users\Admin\Desktop\Downloads\banner.txt", "r");//mở file ở chế độ đọc
  
 while(! feof($fp)) {
     echo fgets($fp);
